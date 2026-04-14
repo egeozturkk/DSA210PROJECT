@@ -1,4 +1,5 @@
-# DSA 210 — Spring 2026
+# DSA 210 
+
 ## Does a spike in job-related Google searches predict a rise in youth unemployment in Turkey, and by how many months?
 
 ### Motivation
