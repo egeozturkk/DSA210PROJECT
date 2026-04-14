@@ -48,7 +48,7 @@ For this project I used four data sources, all at monthly frequency and covering
 **Cross-correlation:**
 - `işkur` shows the strongest signal: correlation peaks at 2 months ahead (r = 0.54, p < 0.05)
 - `iş_ilanı` also shows a growing correlation with time delay, peaking at 3 months (r = 0.43)
-- `linkedin` and `cv_hazırlama` show negative correlations — these terms are searched more when the economy is doing well
+- `linkedin` and `cv_hazırlama` show negative correlations these terms are searched more when the economy is doing well
 - `iş_arıyorum` shows no statistically significant relationship
 
 **T-test (time delay = 2 months):**
