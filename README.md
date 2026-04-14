@@ -25,13 +25,13 @@ Does a spike in job-related Google searches predict a rise in youth unemployment
 
 For this project I used four data sources, all at monthly frequency and covering January 2015 to December 2024. All sources are merged into a single dataset using the month as a shared key, giving 120 observations and 16 variables in total.
 
-**TÜİK Labour Force Statistics** — The main outcome variable is the monthly youth unemployment rate for ages 15 to 24. The non-seasonally adjusted series is used, and seasonality is controlled in the analysis. Downloaded as a single Excel file from data.tuik.gov.tr.
+**TÜİK Labour Force Statistics** : The main outcome variable is the monthly youth unemployment rate for ages 15 to 24. The non-seasonally adjusted series is used, and seasonality is controlled in the analysis. Downloaded as a single Excel file from data.tuik.gov.tr.
 
-**Google Trends** — Monthly search index (0–100) for 10 job-related terms in Turkey: işkur, iş ilanı, iş arıyorum, linkedin, kariyer.net, iş kurumu, cv hazırlama, işsizlik maaşı, işsizlik sigortası, işsizlik ödeneği. Collected via the pytrends Python library.
+**Google Trends** : Monthly search index (0–100) for 10 job-related terms in Turkey: işkur, iş ilanı, iş arıyorum, linkedin, kariyer.net, iş kurumu, cv hazırlama, işsizlik maaşı, işsizlik sigortası, işsizlik ödeneği. Collected via the pytrends Python library.
 
-**TCMB EVDS** — Four monthly macroeconomic variables: CPI inflation, USD/TRY exchange rate, policy interest rate, and industrial production index. Collected via the evds Python library.
+**TCMB EVDS** : Four monthly macroeconomic variables: CPI inflation, USD/TRY exchange rate, policy interest rate, and industrial production index. Collected via the evds Python library.
 
-**Unemployment insurance applications** — Monthly number of people who applied for unemployment benefits, from TCMB EVDS. A direct measure of job loss, collected via the evds Python library.
+**Unemployment insurance applications** : Monthly number of people who applied for unemployment benefits, from TCMB EVDS. A direct measure of job loss, collected via the evds Python library.
 
 ---
 
