@@ -51,8 +51,12 @@ This project uses four data sources, all at monthly frequency and covering Janua
 - `iş_arıyorum` shows no statistically significant relationship
 
 **T-test (time delay = 2 months):**
-- When `işkur` search volume is high, youth unemployment 2 months later averages 22.0% vs 18.7% when search volume is low (t = 6.90, p < 0.001)
-- `iş_ilanı` also shows a significant difference (p = 0.044)
+- H0: Mean youth unemployment is the same in high and low search volume months
+- H1: Mean youth unemployment is higher in high search volume months
+- `işkur`: p < 0.001, H0 rejected. High search volume months are followed by significantly higher unemployment (22.0% vs 18.7%)
+- `iş_ilanı`: p = 0.044, H0 rejected. Significant difference found
+- `iş_arıyorum`: p = 0.225, fail to reject H0. No significant difference found
+
 
 **Machine learning:**
 - Random Forest (CV R² = 0.848, RMSE = 1.174) performed better than Linear Regression (CV R² = 0.754, RMSE = 1.455) on 5-fold cross-validation
