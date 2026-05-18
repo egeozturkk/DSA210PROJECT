@@ -157,4 +157,4 @@ Search data, particularly `işkur`, predicts youth unemployment approximately 1 
 
 ## AI Assistance
 
-This project used Claude (Anthropic) as an AI assistant for code review, debugging, data pipeline structuring, and report writing. All analytical decisions and interpretations are my own. Full documentation is available in `ai_usage_log.pdf`.
+This project used Claude (Anthropic) as an AI assistant for code review, debugging, data pipeline structuring. Full documentation is available in `AiUsage.pdf`.
