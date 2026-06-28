@@ -1,3 +1,4 @@
+
 # DSA 210 — Spring 2026
 ## Does a spike in job-related Google searches predict a rise in youth unemployment with a time delay, or is it simultaneous?
 
@@ -6,6 +7,7 @@
 ---
 
 ## Motivation
+UPDATE:
 
 Youth unemployment in Turkey has remained high for over a decade, and official TÜİK figures come out with a delay of several weeks. This project investigates how many months in advance job-related Google searches predict a rise in youth unemployment. When labor market conditions worsen, people tend to search for job listings and employment services before any official report captures the shift. The goal is to measure the size of this time delay and test whether it is statistically consistent.
 
